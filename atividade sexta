@@ -1,0 +1,16 @@
+let idade = 20;
+let ingresso = true;
+
+if (idade >= 18 && ingresso) {
+  console.log("Entrada permitida!");
+} else {
+  console.log("Entrada negada!");
+}
+
+let idadeMotorista = 16;
+
+if (idadeMotorista >= 18) {
+  console.log("Pode dirigir");
+} else {
+  console.log("Não pode dirigir");
+}
